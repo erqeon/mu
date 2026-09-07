@@ -3,7 +3,7 @@ i noticed that `alphabet` and `selected` are being duplicated; i don't know how 
 -----------------------------------
 
 how to launch?
-* 1. git clone https://github.com/erqeon/
+* 1. git clone https://github.com/erqeon/mu
 * 2. cd mu
 * 3. cargo run --release
 -------------------------------------------------
