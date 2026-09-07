@@ -1,5 +1,5 @@
 why did i write this? i don't know.
-i noticed that `alphabet` and `selected` are being duplicated; i don't know how and yes my code is terrible.
+i noticed that when scrolling up, you can see `alphabet` being duplicated, just like `selected` i don't know how and yes my code is terrible.
 -----------------------------------
 
 how to launch?
