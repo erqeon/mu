@@ -1,5 +1,5 @@
 why did i write this? i don't know.
-i noticed that when scrolling up, you can see `alphabet` being duplicated, just like `selected` i don't know how and yes my code is terrible.
+I’ve noticed the editor is full of bugs—I don’t know how to fix them myself—but yeah, my code is worse than ever.
 -----------------------------------
 
 how to launch?
@@ -8,18 +8,22 @@ how to launch?
 * 3. cargo run --release
 -------------------------------------------------
 
-if you would like to help the project, you can send an email to cuvensik@gmail.com.
+Send a pull request or issues if you're not too lazy, preferably through mu
+---------------------------------------------------------------------------
 
 Useless facts
 =============
 - i came up with this project while reading an article about vim on wikipedia.
 - mu, from the word "mouse".
 - many programmers write scripts that automatically subscribe to people (most often in python).
-- the ss14 creators don't care about newcomers, and they might reject pull requests simply because they don't like your code (they can't even be bothered to write documentation, let alone read the code).
-- i drew inspiration from Satoshi Nakamoto and Linus Torvalds.
+- systems programmers go on about how writing code is a grueling struggle, even though they work at companies where they rake in huge paychecks (i hope they won't be replaced by ai).
 - corporations parasitize free code (please do not use mit/apache licenses).
+- corporations have drilled it into our heads that we should use open source absolutely for free, while forgetting how many nights developers spend fixing bugs.
 - when steve jobs died, the whole world shouted about it; when Dennis Ritchie died, everyone remained silent.
-- what do the world's first programmer and the world's first browser (line mode browser) have in common? both were created by women.
-- i’d love to work on open-source projects and be independent, but people usually only donate to giants like Linux or Vue.js, not to ordinary programmers :/ (sad...).
+- i’d love to work on open-source projects and be independent, but people usually only donate to giants like Linux or Vue.js, not to ordinary programmers.
+- modern programmers have forgotten how to write simple, minimalist code; instead, their code weighs more than the game *Cyberpunk* (give him html,css,js, and he won't even be able to write basic code, when i visited the Vercel website—oh God, forgive us for our sins—my browser was lagging as if it were trying to run GTA 6).
+- modern consumers think the industry depends on their opinion, although that is not the case (they post their photos every day and want people to be jealous—it’s just so low).
+- the platforms are so lazy that they decided to restrict regular users from posting, lol.
+- it is better to have a thousand loyal users than a billion soulless robots.
 
-Is anyone reading this?
+Is anyone reading this? Wanna bet $0 that Linus Torvalds won't read this code and the README?
