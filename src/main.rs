@@ -25,8 +25,8 @@ fn main() -> io::Result<()> {
 
     let mut current_index: usize = 0;
     let mut code_buffer = String::new();
-
     let (_width, height) = size()?;
+
     loop {
         match read()? {
             Event::Key(key_event) => {
@@ -40,15 +40,17 @@ fn main() -> io::Result<()> {
             Event::Mouse(mouse_event) => {
                 match mouse_event.kind {
                     MouseEventKind::ScrollUp => {
-                        current_index = (current_index + alphabet.len() - 1) % alphabet.len();
                         stdout.flush()?;
+                        break;
                     }
+
                     MouseEventKind::ScrollDown => {
-                        current_index = (current_index + 1) % alphabet.len();
                         stdout.flush()?;
+                        break;
                     }
-                    MouseEventKind::Down(MouseButton::Right) => {
-                        let selected = alphabet[current_index];
+
+					MouseEventKind::Down(MouseButton::Left) => {
+						let selected = alphabet[current_index];
 
                         if selected == "[ENTER]" {
                             code_buffer.push('\n');
@@ -60,6 +62,11 @@ fn main() -> io::Result<()> {
                         }
 
                         stdout.flush()?;
+					}
+
+                    MouseEventKind::Down(MouseButton::Right) => {
+                        current_index = (current_index + 1) % alphabet.len();
+						stdout.flush()?;
                     }
                     _ => {}
                 }

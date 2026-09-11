@@ -8,6 +8,12 @@ how to launch?
 * 3. cargo run --release
 -------------------------------------------------
 
+how to use?
+- left button – for action (clicking).
+- right button — for moving between letters.
+- to exit, use the 'q' key (if you don't have a mouse wheel or it's broken) or the mouse wheel.
+--------------------------------------------
+
 Send a pull request or issues if you're not too lazy, preferably through mu
 ---------------------------------------------------------------------------
 
